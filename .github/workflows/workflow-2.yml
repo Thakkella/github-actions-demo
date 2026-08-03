@@ -10,13 +10,19 @@ jobs:
     steps:
     - name: Create a text file
       run: echo "Hello World!" > hello.txt
+    - uses: actions/upload-artifact@v7
+      with:
+        name: test-file
+        path: hello.txt
 
   test:
     runs-on: ubuntu-latest
-    
+
     steps:
+    - uses: actions/download-artifact@v8
+      with:
+        name: test-file
     - name: List file
       run: ls
-
     - name: Test file
       run: cat hello.txt | grep -i "Hello World!"
