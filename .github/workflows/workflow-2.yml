@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 env:
-  GREETING: "Hello"
+  GREETING: ${{ vars.GREETING }}
 
 jobs:
   build:
