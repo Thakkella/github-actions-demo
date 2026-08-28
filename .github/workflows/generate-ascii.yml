@@ -1,5 +1,3 @@
-[![Generate ASCII Artwork](https://github.com/Thakkella/github-actions-demo/actions/workflows/generate-ascii.yml/badge.svg)](https://github.com/Thakkella/github-actions-demo/actions/workflows/generate-ascii.yml)
-
 name: Generate ASCII Artwork
 
 on:
