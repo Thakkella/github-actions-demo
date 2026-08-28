@@ -1,3 +1,5 @@
+[![Scripted Pipeline](https://github.com/Thakkella/github-actions-demo/actions/workflows/scripted-pipeline.yml/badge.svg)](https://github.com/Thakkella/github-actions-demo/actions/workflows/scripted-pipeline.yml)
+
 name: Scripted Pipeline
 
 on:
